@@ -1,0 +1,15 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    // 导入本地包
+    //    "@ohos/static_library1": "file:../libs/static_library1.har",
+    // 导入本地包源码
+    "@ohos/static_library1": "file:../static_library1"
+  }
+}
+

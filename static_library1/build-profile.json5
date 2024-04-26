@@ -1,0 +1,12 @@
+{
+  "apiType": "stageMode",//只有Stage模型才支持混淆。
+  "buildOption": {
+    "artifactType": "obfuscation" // original：不混淆   obfuscation：混淆。
+  },
+  "targets": [
+    {
+      "name": "default",
+      "runtimeOS": "HarmonyOS"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "har_dev_demo",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    // 也可以在 entry 模块的 oh-package.json5 中
+//    "@ohos/static_library1": "file:./libs/static_library1.har",
+//    "@ohos/static_library1": "file:./static_library1"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}
