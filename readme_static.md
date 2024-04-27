@@ -23,6 +23,8 @@ har开发注意事项：
 9.开发完库模块后，选中模块名，然后通过DevEco Studio菜单栏的Build > Make Module ${libraryName}进行编译构建，生成HAR,
     输出目录为该模块目录下的 build\default\outputs\default\xxxx.har
 10.添加到.ohpmignore文件的文件及目录会被过滤，不会打包到HAR中。
+11.多个hap 使用 har 进行资源和代码共享，会导致包体积较大，且有重复多份公共资源和代码重复打包到应用中，此时因使用HSP
+
 
 
 har包引用
